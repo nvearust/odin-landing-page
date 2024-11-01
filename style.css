@@ -1,7 +1,8 @@
 * {
-    font-family: n, "Roboto";
+    font-family: "Roboto", sans-serif;
     display: flex;
 }
+
 .header {
     background-color: #1F2937;
     color: #F9FAF8;
@@ -9,21 +10,21 @@
 }
 
 li {
-    list-style-type: none
+    list-style-type: none;
 }
 
-.headertext > h1{
+.header-text > h1 {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
 }
 
-.headertext {
+.header-text {
     font-size: 18px;
     color: #e5e7eb;
 }
 
-.image {
+.header-image {
     width: 30%;
-    height: 5%;
+    height: auto;
 }
