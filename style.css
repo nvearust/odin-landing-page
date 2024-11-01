@@ -110,6 +110,12 @@ button {
     padding: 64px;
 }
 
+.info-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
 .info-images {
     display: flex;
     gap: 20px;
@@ -140,4 +146,30 @@ button {
     color: #555;
 }
 
+.quote-section {
+    background-color: #e5e7eb; /* Entire section background color */
+    padding: 60px 0; /* Space above and below the quote */
+    width: 100vw; /* Full viewport width */
+    display: flex;
+    justify-content: center;
+}
 
+.quote {
+    max-width: 800px;
+    padding: 30px;
+    text-align: center;
+}
+
+.quote-text {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.quote-author {
+    font-size: 1rem;
+    color: #555;
+    text-align: right;
+    width: 100%;
+}
