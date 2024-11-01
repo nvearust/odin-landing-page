@@ -21,6 +21,13 @@ button {
     font-size: 16px;
 }
 
+.header, .footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    width: 100%;
+    text-align: center;
+}
+
 .header {
     background-color: #1F2937;
     color: #F9FAF8;
@@ -44,6 +51,7 @@ button {
     max-width: 1200px;
     width: 90%;
     margin: 64px auto;
+    gap: 20px;
 }
 
 .header-text {
@@ -58,7 +66,7 @@ button {
     margin-bottom: 16px;
 }
 
-.header-text {
+.header-text p {
     font-size: 1rem;
     color: #e5e7eb;
     margin-bottom: 24px; 
@@ -89,11 +97,47 @@ button {
     color: #F9FAF8;
 }
 
+
 .footer {
-    background-color: #1F2937;
-    color: #F9FAF8;
     padding: 16px;
-    width: 100%;
-    text-align: center; 
     margin-top: 20px;
 }
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px;
+}
+
+.info-images {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.image-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(50% - 20px); /* Adjusts to fit two images per row */
+    max-width: 300px; /* Restricts maximum width for smaller screens */
+}
+
+.image-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #3882F6; /* Adds color to border */
+}
+
+.image-caption {
+    margin-top: 8px;
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+}
+
+
