@@ -1,0 +1,29 @@
+* {
+    font-family: n, "Roboto";
+    display: flex;
+}
+.header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 16px;
+}
+
+li {
+    list-style-type: none
+}
+
+.headertext > h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.headertext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.image {
+    width: 30%;
+    height: 5%;
+}
